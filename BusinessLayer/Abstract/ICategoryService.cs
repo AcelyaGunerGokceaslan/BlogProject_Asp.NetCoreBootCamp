@@ -11,8 +11,8 @@ namespace BusinessLayer.Abstract
     {
         void CategoryAdd(Category category);
         void CategoryDelete(Category category);
-        void CategoryUpate(Category category);
-        List<Category> GetAllCategories();
-        Category GetCategoryById(int id);
+        void CategoryUpdate(Category category);
+        List<Category> GetList();
+        Category GetById(int id);
     }
 }
